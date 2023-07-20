@@ -1,39 +1,54 @@
-# Nuxt 3 Boilerplate Starter
+# Nuxt 3 Boilerplate
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Projeto com propósito de acelerar o desenvolvimento de aplicações web utilizando Nuxt 3. Ao clonar o repositório, você terá um projeto iniciado com algumas ferramentas muito úteis para projetos SPA.
+
+Visite [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) para ler mais sobre o Nuxt 3
+
+## Ferramentas para auxiliar no desenvolvimento de aplicações, já configuradas no projeto: 
+- Estilização: `Tailwind`
+- Componentes: `DaisyUi`
+- Gerenciamento de estado: `Pinia`
+- Autenticação: Store feita em `Pinia` com autenticação básica
+- HTTP: `Axios`
+- Tratamento de imagens: `Nuxt Image`
+- Tratamento de datas: `DayJs`
+- Validação de formulários: `VeeValidate`
+- Icons: `Nuxt-Icon`
+- Ferramentas auxliares de código: `VueUse` e `Lodash`
+- Toats: `Vue Toastification`
 
 ## Setup
 
-Make sure to install the dependencies:
+Para instalar as dependências:
 
 ```bash
 # npm
 npm install
 ```
 
-## Development Server
+## Servidor de desenvolvimento
 
-Start the development server on `http://localhost:3000`:
+para iniciar um servidor de desenvolvimento em `http://localhost:3000`:
 
 ```bash
 # npm
 npm run dev
 ```
 
-## Production
+## Servidor de Produção
 
-Build the application for production:
+Buildar a aplicação para produção:
 
 ```bash
 # npm
 npm run build
 ```
 
-Locally preview production build:
+Ver build gerada:
 
 ```bash
 # npm
 npm run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Visite [deploy em Nuxt](https://nuxt.com/docs/getting-started/deployment) para mais informações.
