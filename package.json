@@ -1,0 +1,49 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint:fix": "eslint --ext .js,.vue --ignore-path .gitignore --fix ."
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/eslint-config": "^0.1.1",
+    "@nuxt/image": "^1.0.0-rc.1",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@types/node": "^18.16.19",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "autoprefixer": "^10.4.14",
+    "daisyui": "^3.2.1",
+    "dayjs-nuxt": "^1.1.2",
+    "eslint": "^8.44.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "nuxt": "^3.6.2",
+    "nuxt-icon": "^0.4.2",
+    "nuxt-lodash": "^2.5.0",
+    "postcss": "^8.4.26",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
+    "@vee-validate/i18n": "^4.10.6",
+    "@vee-validate/rules": "^4.10.6",
+    "@vueuse/core": "^10.2.1",
+    "@vueuse/nuxt": "^10.2.1",
+    "@vueuse/router": "^10.2.1",
+    "axios": "^1.4.0",
+    "pinia": "^2.1.4",
+    "vee-validate": "^4.10.6",
+    "vue-toastification": "^2.0.0-rc.5"
+  },
+  "overrides": {
+    "vue": "latest"
+  },
+  "engines": {
+    "node": "18.16.1"
+  }
+}

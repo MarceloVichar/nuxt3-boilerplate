@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    html {
+        @apply box-border;
+    }
+
+    body {
+        @apply font-sans h-full tracking-wider antialiased;
+    }
+
+    #app, #__nuxt {
+        @apply h-full;
+    }
+
+    #__layout {
+        @apply h-screen;
+    }
+
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+
+    .requiredField:after {
+        content: "*";
+        color: theme('colors.error');
+    }
+
+    .fieldError {
+        @apply h-6 text-error text-center text-sm px-2 break-all whitespace-normal text-ellipsis overflow-hidden;
+    }
+}
